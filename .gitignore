@@ -1,6 +1,6 @@
 /zcode
 /dev_src
-/00
+**/00
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
