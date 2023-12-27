@@ -1,36 +1,49 @@
-# machine_learning_data_science
+# Data Science and Machine Learning Portfolio
 
-### [my notes](https://github.com/aharo24/opensource/tree/main/machine-learning)
-...Over 8,000 lines of markdown notes on machine-learning.
+Welcome to my GitHub repository where I showcase my competencies and projects in Data Science and Machine Learning.
 
-### [my code](https://github.com/aharo24/machine-learning-jupyternotebook)
-... All code related to machine/deep-learning, algorithms, and analysis will be found here. 
+## Contents
 
-### [capstone project](https://github.com/aharo24/machine-learning-jupyternotebook/blob/main/Projects/Capstone.ipynb)
-... Intro Project for machine-learning.
+- [Data Manipulation](#data-manipulation)
+  - Demonstrations of data manipulation techniques using Numpy and Pandas.
+- [Data Visualization](#data-visualization)
+  - Visualization examples using Matplotlib and Seaborn.
+- [Projects](#projects)
+  - Featured projects including a Capstone project and a House Price Prediction model.
 
-### predict value of home 
-... (in process)
+## Data Manipulation
 
-Summar:
-... Actively learning for [UCSD](https://cse.ucsd.edu/research) research and [Google](https://research.google/research-areas/natural-language-processing/) research. Please refer to my [Linkedin](https://www.linkedin.com/in/aharo24/) for more details.
+Here you will find notebooks detailing operations and data manipulations with popular Python libraries.
 
-...I have gained extensive knowledge in machine learning through my personal studies, with a focus on topics such as linear regression, data visualization, and the use of popular libraries such as NumPy, Pandas, scikit-learn and Matplotlib. I also completed a capstone project that demonstrated my ability to apply these concepts in a practical setting. My goal is to continue to deepen my understanding in this field and apply it to real-world problems.
+- Numpy
+  - Operations with high-performance arrays and matrices.
+- Pandas
+  - Data processing with powerful data structures like DataFrames and Series.
 
+## Data Visualization
 
-# [How to Use / Important Note](https://github.com/aharo24/opensource/tree/main/dotfiles) 
-- Please refer to my opensource docs.
-	- be patient (slowly merging notes and code)
-.
-.
-.
-I am excited to announce that I am in the process of updating my dot-alacritty repository. You can access it on my opensource GitHub page. This update includes improvements to thousands of lines of code across various programming languages and topics such as machine learning. Please bear with me as I work to merge my notes and code. Thank you for your patience!
+Visual storytelling notebooks using data plots and charts.
 
+- Matplotlib
+  - Basic to advanced plotting techniques.
+- Seaborn
+  - Statistical data visualization using high-level interface.
 
+## Projects
 
-# [Contact Info](https://github.com/aharo24/opensource)
+Practical applications of machine learning and data science concepts.
 
-Feel free to follow me on twitter: [@aharo24](https://www.twitter.com/aharo24)!
+- Capstone
+  - An overview of an end-to-end machine learning workflow.
+- House Price Prediction
+  - A regression model to predict house values.
+- Linear Regression
+  - Simple linear regression analysis on a dataset.
 
-email me with any questions, improvements, bugs, or just to chat.
-io.aharo24@gmail.com
+## Quick Start
+
+Visit any of the directories above to see the notebooks. Clone the repository to run the notebooks locally and experiment with the code.
+
+## Stay In Touch
+
+For more information and updates, follow me on [Twitter](https://www.twitter.com/aharoJ) or connect with me on [LinkedIn](https://www.linkedin.com/in/aharoJ/). Feel free to email me for questions.
