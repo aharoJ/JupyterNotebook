@@ -6,6 +6,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+.DS_Store
+restruct.txt
+
+
 # C extensions
 *.so
 
