@@ -20,7 +20,7 @@ Here you will find notebooks detailing operations and data manipulations with po
 - Pandas
   - Data processing with powerful data structures like DataFrames and Series.
 
-## Data Visualization
+## [Data Visualization](https://github.com/aharoJ/MyNoteBook/tree/main/Data_Visualization)
 
 Visual storytelling notebooks using data plots and charts.
 
@@ -29,7 +29,7 @@ Visual storytelling notebooks using data plots and charts.
 - Seaborn
   - Statistical data visualization using high-level interface.
 
-## Projects
+## [Projects](https://github.com/aharoJ/MyNoteBook/tree/main/Projects)
 
 Practical applications of machine learning and data science concepts.
 
