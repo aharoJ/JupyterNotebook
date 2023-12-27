@@ -11,7 +11,7 @@ Welcome to my GitHub repository where I showcase my competencies and projects in
 - [Projects](#projects)
   - Featured projects including a Capstone project and a House Price Prediction model.
 
-## Data Manipulation
+## [Data Manipulation](https://github.com/aharoJ/MyNoteBook/tree/main/Data_Manipulation)
 
 Here you will find notebooks detailing operations and data manipulations with popular Python libraries.
 
