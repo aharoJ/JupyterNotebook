@@ -34,3 +34,19 @@ For an enhanced experience viewing these notes, you can use Obsidian. Here’s h
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && brew install --cask obsidian
 ```
+
+## Quick Start
+
+Visit any of the directories above to see the notebooks. Clone the repository to run the notebooks locally and experiment with the code.
+
+1. Clone the repository: git clone https://github.com/aharoJ/MyNoteBook.git
+2. To explore code, navigate to the Code directory.
+3. To view notes, navigate to the Notes directory. For a better experience, use Obsidian.
+4. Run Python notebooks using Jupyter (ensure Jupyter is installed).
+
+
+## Stay In Touch
+
+For more information and updates, follow me on [Twitter](https://www.twitter.com/aharoJ) or connect with me on [LinkedIn](https://www.linkedin.com/in/aharoJ/). Feel free to email me for questions.
+
+
