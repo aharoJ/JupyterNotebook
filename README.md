@@ -20,9 +20,12 @@ Explore practical implementations and projects in the `Code` directory. This inc
 - Examples of data visualization with Matplotlib and Seaborn.
 
 ### Projects
+- [Neural Network Reflectance Prediction](https://github.com/aharoJ/MyNoteBook/tree/main/Code/Projects/NeuralNetworkReflectancePrediction): Developed a neural network to predict the reflectance of materials using the MERL BRDF dataset, employing deep learning techniques in Python.
+
 - [Capstone Project](https://github.com/aharoJ/MyNoteBook/tree/main/Code/Projects/Capstone): An end-to-end machine learning workflow.
 - [House Price Prediction](https://github.com/aharoJ/MyNoteBook/tree/main/Code/Projects/HousePricePrediction): Model for predicting house values.
 - [Linear Regression](https://github.com/aharoJ/MyNoteBook/tree/main/Code/Projects/linear%20regression): Basics and applications of linear regression.
+
 
 ## [Notes](https://github.com/aharoJ/MyNoteBook/tree/main/Notes)
 
