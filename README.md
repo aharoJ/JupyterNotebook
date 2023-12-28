@@ -10,7 +10,9 @@ Welcome to my GitHub repository where I showcase my competencies and projects in
   - Visualization examples using Matplotlib and Seaborn.
 - [Projects](#projects)
   - Featured projects including a Capstone project and a House Price Prediction model.
-
+- [Notes](#notes)
+  - The `Notes` directory is filled with markdown files, providing theoretical background and personal insights into Data Science and Machine Learning.
+  
 ## [Data Manipulation](https://github.com/aharoJ/MyNoteBook/tree/main/Data_Manipulation)
 
 Here you will find notebooks detailing operations and data manipulations with popular Python libraries.
