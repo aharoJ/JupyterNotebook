@@ -1,6 +1,13 @@
 /zcode
 /dev_src
-**/00
+
+# dev stuff
+**00/
+
+# obsidian
+**.obsidian/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
