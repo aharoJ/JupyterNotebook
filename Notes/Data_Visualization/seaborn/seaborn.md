@@ -19,19 +19,19 @@
 
 ---
 
-
 # scatterplot
-### doc for scatterplot()
-### [colors](https://matplotlib.org/stable/tutorials/colors/colormaps.html)
 
+### doc for scatterplot()
+
+### [colors](https://matplotlib.org/stable/tutorials/colors/colormaps.html)
 
 ![](aharo24%202023-01-15%20at%205.55.58%20PM.png)
 
-	sns.scatterplot(x="salary", y='sales', data=df)
+    sns.scatterplot(x="salary", y='sales', data=df)
 
 ![](aharo24%202023-01-15%20at%206.00.11%20PM.png)
 
-```python 
+```python
 plt.figure(figsize=(12,4), dpi=200)
 
 sns.scatterplot(x="salary", y='sales', data=df, hue="salary")
@@ -51,50 +51,48 @@ The `plot_color_gradients` will provide a list of all possible colors you can pa
 
 ie...
 
-	plot_color_gradients('Qualitative',
+    plot_color_gradients('Qualitative',
                      ['Pastel1', 'Pastel2', 'Paired', 'Accent', 'Dark2',
                       'Set1', 'Set2', 'Set3', 'tab10', 'tab20', 'tab20b',
                       'tab20c'])
 
 ![](aharo24_119.png)
 
-
-
-
-## Transparency 
+## Transparency
 
 `alpha`
 
-``` python
+```python
 0= none
 1= full
 ```
 
-
 ie...
-```python 
+
+```python
 plt.figure(figsize=(8,4), dpi=200)
 sns.scatterplot(x='salary',y='sales',data=df, size='work experience', alpha=0.3)
 ```
 
 ![](aharo24%202023-01-15%20at%206.41.19%20PM.png)
 
-#important/categorical 
+#important/categorical
 
 ---
-#### important 
+
+#### important
+
 #matplotlib/figure
 
 easy way to standardize the overall view of most `sns` stuff
 
 ie...
-	plt.figure(figsize=(10,4), dpi=120)
-
-
+plt.figure(figsize=(10,4), dpi=120)
 
 # Distribution-Plots
 
 ## Bins
+
 ![](aharo24%202023-01-15%20at%206.57.02%20PM.png)
 .
 .
@@ -105,65 +103,56 @@ ie...
 
 #### histogram^^^
 
-
 ## rugplot
+
 ![](aharo24%202023-01-15%20at%207.08.24%20PM.png)
 
-	sns.rugplot(x='salary', data=df, height=0.5)
+    sns.rugplot(x='salary', data=df, height=0.5)
 
 ![](aharo24%202023-01-15%20at%207.10.12%20PM.png)
-
 
 `displot`
 ![](aharo24%202023-01-15%20at%207.10.57%20PM.png)
 
-
+---
 
 ---
----
+
 ---
 
 # Categorical-Plots
 
 ![](aharo24%202023-01-16%20at%2011.10.26%20PM.png)
 
-
-
 ## countplot
 
 ![](aharo24%202023-01-16%20at%2011.18.45%20PM.png)
 
-
 ### countplot == values_counts
+
 #sns/countplot
 ![](aharo24%202023-01-17%20at%209.09.00%20PM.png)
 
 refer to:
-#pandas/value_counts 
+#pandas/value_counts
 [value_counts](pandas.md#value_counts)
 
-
 ---
-#important/categorical/instances 
+
+#important/categorical/instances
 
 #### x=(feature target rows)
 
-	sns.countplot(data=df, x='level of education')
-
-
+    sns.countplot(data=df, x='level of education')
 
 `ci` --> confidence interval
 ![](aharo24%202023-01-16%20at%2011.23.20%20PM.png)
 
-
-	sns.barplot(data=df, x='level of education', y='salary', estimator=np.mean,ci='sd')
+    sns.barplot(data=df, x='level of education', y='salary', estimator=np.mean,ci='sd')
 
 ![](aharo24%202023-01-16%20at%2011.31.30%20PM.png)
 
-
 # Boxplot
-
-
 
 ## violinpliot
 
@@ -173,13 +162,7 @@ sns.violinplot(data=df,x='reading score',y='parental level of education', hue='t
 
 instead use a boxplot
 
-
-
 `bw` --> bandwidth
-
-
-
-
 
 ## swarmplot
 
@@ -188,7 +171,7 @@ plt.figure(figsize=(10,4), dpi=150)
 
 sns.swarmplot(data=df,x='math score',y='gender', hue='test preparation course')
 
-  
+
 
 plt.legend(bbox_to_anchor=(1.355,0.5))
 ```
@@ -200,21 +183,13 @@ plt.legend(bbox_to_anchor=(1.355,0.5))
 
 it will seperate the sub category
 
-
-
-
-
-
-
-
-
 ## joinplot
 
 ```python
 sns.jointplot(data=df,x='math score', y='reading score')
 ```
-![](aharo24%202023-01-17%20at%202.06.41%20PM.png)
 
+![](aharo24%202023-01-17%20at%202.06.41%20PM.png)
 
 `kind=`
 `kind=hist`
@@ -222,45 +197,37 @@ sns.jointplot(data=df,x='math score', y='reading score')
 `kind=hex`
 `kind=kde`
 
-ie... 
+ie...
 
-	sns.jointplot(data=df,x='math score', y='reading score', kind='hex')
+    sns.jointplot(data=df,x='math score', y='reading score', kind='hex')
+
 ![](aharo24%202023-01-17%20at%202.07.51%20PM.png)
 
-
-
-
-
 #### clean ie...
+
 ![](aharo24%202023-01-17%20at%202.13.13%20PM.png)
 
 hue sepera
 
-
 # pairplot
-#important 
+
+#important
 seen a lot in ML
 ![](aharo24%202023-01-17%20at%202.31.11%20PM.png)
 
 ```python
 sns.pairplot(data=df)
 ```
+
 ![](aharo24%202023-01-17%20at%202.33.05%20PM.png)
 
-
 #### cleanest way for pairplot
+
 ```python
 sns.pairplot(data=df,hue='gender',corner=True)
 ```
+
 ![](aharo24%202023-01-17%20at%202.51.38%20PM.png)
-
-
-
-
-
-
-
-
 
 # Hue
 
@@ -268,9 +235,6 @@ sns.pairplot(data=df,hue='gender',corner=True)
 is amazing for allowing the user to understand the difference between feature or instances
 
 ![](aharo24%202023-01-17%20at%202.26.10%20PM.png)
-
-
-
 
 ## scatplot
 
@@ -280,13 +244,11 @@ in addition `col` and `row` is now available
 sns.catplot(data=df,x='gender',y='math score',kind='box', col='lunch', row='test preparation course')
 ```
 
-max recommended ~> 4 
+max recommended ~> 4
 ![](aharo24%202023-01-17%20at%203.02.45%20PM.png)
 
-
-
-
 ## pairgrid
+
 allows you to create your own graph per section
 ![](aharo24%202023-01-17%20at%203.07.42%20PM.png)
 
@@ -297,8 +259,10 @@ ie...
 ![](aharo24%202023-01-17%20at%203.12.24%20PM.png)
 
 ## kdeplot
-#important/categorical/instances 
+
+#important/categorical/instances
 this plot is used to compare instances opposed to having a Y vs X/x
+
 ```python
 sns.kdeplot(data=fan_reviewed, x='RATING', clip=[0,5],label= 'TRUE Rating')
 sns.kdeplot(data=fan_reviewed, x='STARS', clip=[0,5],label= 'Stars Shown')
@@ -321,16 +285,3 @@ sns.heatmap(df.drop('Life expectancy',axis=1),linewidths=0.5,annot=True,cmap='vi
 `linewidth` -> straight forward
 `center` -> like changing the mean
 ![](aharo24%202023-01-17%20at%203.26.52%20PM.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
