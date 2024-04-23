@@ -1,14 +1,10 @@
-- [ ] # I will come back and refresh files... ik ik its messy
-## I was not even a week into .md note-taking here
-
-
 # Range
 
-* `range()`
+- `range()`
 
-````python
+```python
 np.arange(0,7)
-````
+```
 
 out: array(\[0, 1, 2, 3, 4, 5, 6\])
 
@@ -16,17 +12,17 @@ out: array(\[0, 1, 2, 3, 4, 5, 6\])
 
 # Zeros
 
-* `zeros()`
+- `zeros()`
 
-````python
+```python
 np.zeros( (2,5) )
-````
+```
 
 ![](aharo3.png)
 
-* np.zeros((**x**,**y**))
-  * '**x**' --> rows
-  * '**y**' --> columns 
+- np.zeros((**x**,**y**))
+  - '**x**' --> rows
+  - '**y**' --> columns
 
 ---
 
@@ -34,7 +30,7 @@ np.zeros( (2,5) )
 
 `np.ones()`
 ![](aharo4.png)
-\>	same as np.zeros, now we spawn 1's.
+\> same as np.zeros, now we spawn 1's.
 
 ---
 
@@ -43,35 +39,35 @@ np.zeros( (2,5) )
 `np.linspace()`
 [linspace official source](https://numpy.org/doc/stable/reference/generated/numpy.linspace.html#:~:text=numpy.arange-,numpy.linspace,-numpy.logspace)
 
-* ![](aharo4.png)
-* ![](aharo5.png)
+- ![](aharo4.png)
+- ![](aharo5.png)
 
 ![](aharo6.png)
 
 np.linespace(**start**, **stop**, **x**)
 
-* start
-  * where to begin
-* stop
-  * where to end
-* x
-  * **important** this number must math the start,stop *else* ~~its not human readable~~
-    * `np.linspace(0,12,5)` --> #linspace_issue-00 
+- start
+  - where to begin
+- stop
+  - where to end
+- x
+  - **important** this number must math the start,stop _else_ ~~its not human readable~~
+    - `np.linspace(0,12,5)` --> #linspace_issue-00
 
-**Explanation**  #linspace_issue-00 
+**Explanation** #linspace_issue-00
 
- > 
- > np.linspace(0,12,5)
- > output: array(\[ 0., 3., 6., 9., 12.\])
+> np.linspace(0,12,5)
+> output: array(\[ 0., 3., 6., 9., 12.\])
 
-machine:				 0, 1, 2, 3, 4 *\<-->* 5 Human counts
-human:                  1, 2, 3, 4, 5
-output:				\[0, 1, 2, 3\] |
-
+machine: 0, 1, 2, 3, 4 _\<-->_ 5 Human counts
+human: 1, 2, 3, 4, 5
+output: \[0, 1, 2, 3\] |
 
 ---
+
 `Update Jan 25,2023`
 the 100 is the give me this many dots in between 0~500
+
 ```python
 potential_spend= np.linspace(0,500,100)
 ```
@@ -91,13 +87,12 @@ potential_spend= np.linspace(0,500,100)
 `np.random()`
 np.random.**[distributions()](https://numpy.org/doc/1.16/reference/routines.random.html#:~:text=a%20permuted%20range.-,Distributions,-%C2%B6)**
 
-* All numpy random distributions can be found [here](https://numpy.org/doc/1.16/reference/routines.random.html#:~:text=a%20permuted%20range.-,Distributions,-%C2%B6)
+- All numpy random distributions can be found [here](https://numpy.org/doc/1.16/reference/routines.random.html#:~:text=a%20permuted%20range.-,Distributions,-%C2%B6)
 
 `np.random.rand()`
 
- > 
- > Random values in a given shape.
- > Create an array of the given shape and populate it with random samples from a uniform distribution over `[0, 1)`.
+> Random values in a given shape.
+> Create an array of the given shape and populate it with random samples from a uniform distribution over `[0, 1)`.
 
 ![](aharo8.png)
 
@@ -113,7 +108,7 @@ np.random.**[distributions()](https://numpy.org/doc/1.16/reference/routines.rand
 
 `np.random.seed()`
 
-* *func* seed resource: [here](https://numpy.org/doc/1.16/reference/generated/numpy.random.seed.html#numpy.random.seed)
+- _func_ seed resource: [here](https://numpy.org/doc/1.16/reference/generated/numpy.random.seed.html#numpy.random.seed)
 
 `reshape()`
 
@@ -126,17 +121,17 @@ np.random.**[distributions()](https://numpy.org/doc/1.16/reference/routines.rand
 ---
 
 # Attribute_vs_Function_Calls
+
 #attribute_vs_func
 
+- Atrribute
 
-* Atrribute
-  * correct: random_arr.dtype
-  * correct: random_arr.shape
-    * wrong: random_arr.dtype\*\*~~()~~\*\*
-    * wrong: ~~random_arr.shape()~~
+  - correct: random_arr.dtype
+  - correct: random_arr.shape
+    - wrong: random_arr.dtype\*\*~~()~~\*\*
+    - wrong: ~~random_arr.shape()~~
 
-
-* Func call ()
-  * whenever we call "**()**"
+- Func call ()
+  - whenever we call "**()**"
 
 ---
