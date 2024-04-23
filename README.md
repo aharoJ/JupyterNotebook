@@ -27,6 +27,32 @@ Explore practical implementations and projects in the `Code` directory. This inc
 - [Linear Regression](https://github.com/aharoJ/MyNoteBook/tree/main/Code/Projects/linear%20regression): Basics and applications of linear regression.
 
 
+## Pyhton Enviroment & Dependencies 
+Python 3.6.15
+
+### ERROR with dependencies
+Example 1
+```sh
+ModuleNotFoundError: No module named 'sklearn'
+```
+FIX
+```sh
+pip install sklearn && pip install scikit-learn
+```
+Example
+```sh
+ModuleNotFoundError: No module named 'plotly'
+```
+FIX
+```sh
+pip install plotly
+```
+All you have to do is pip install `missing_module`
+
+
+
+
+
 ## [Notes](https://github.com/aharoJ/MyNoteBook/tree/main/Notes)
 
 The `Notes` directory is filled with markdown files, providing theoretical background and personal insights into Data Science and Machine Learning.
